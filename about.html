@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>О проекте — GlekSquad</title>
+    <meta name="description" content="Узнайте больше о проекте GlekSquad, его истории, команде и философии.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <a href="index.html" class="nav-logo">
+                <div class="logo-icon">⛏</div>
+                GlekSquad
+            </a>
+            <ul class="nav-links">
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="blog.html">Блог</a></li>
+                <li><a href="about.html" class="active">О проекте</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+                <li><a href="apply.html">Заявка</a></li>
+            </ul>
+            <div class="burger" id="burger" aria-label="Меню">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- MOBILE MENU -->
+    <div class="mobile-overlay" id="mobileOverlay"></div>
+    <div class="mobile-menu" id="mobileMenu">
+        <a href="index.html">🏠 Главная</a>
+        <a href="blog.html">📰 Блог</a>
+        <a href="about.html" class="active">ℹ️ О проекте</a>
+        <a href="faq.html">❓ FAQ</a>
+        <a href="apply.html">📝 Заявка</a>
+    </div>
+
+    <!-- MINI HERO -->
+    <section class="hero hero-mini">
+        <canvas id="particles-canvas"></canvas>
+        <div class="hero-content">
+            <h1 class="hero-logo">ℹ️ О проекте</h1>
+            <p class="hero-subtitle">История и команда <span>GlekSquad</span></p>
+        </div>
+    </section>
+
+    <!-- О ПРОЕКТЕ -->
+    <section>
+        <div class="container">
+            <div class="section-header reveal">
+                <h2>Что такое GlekSquad?</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="about-card reveal">
+                <p>GlekSquad — это Minecraft-сервер, созданный студией Dream Clouds. Мы запускаем как ванильное выживание с элементами РП, так и полноценные модовые сезоны. Наша цель — создать уютное и дружелюбное комьюнити, где каждый игрок найдёт своё место.</p>
+            </div>
+            <div class="about-card reveal" style="margin-top: 30px;">
+                <p>На сервере царит ламповая атмосфера. Мы ценим креативность, уважение и командную игру. Здесь вы можете строить города, создавать РП-организации, участвовать в ивентах или просто выживать в компании друзей. Администрация всегда на связи и готова помочь.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ИСТОРИЯ -->
+    <section>
+        <div class="container">
+            <div class="section-header reveal">
+                <h2>История проекта</h2>
+                <p>Как мы росли и развивались</p>
+                <div class="section-divider"></div>
+            </div>
+            <div class="timeline reveal">
+                <div class="timeline-item">
+                    <h3>Основание</h3>
+                    <div class="timeline-date">Начало пути</div>
+                    <p>Проект GlekSquad был задуман командой Dream Clouds Studio как небольшой сервер для друзей. Идея быстро переросла в полноценный проект с амбициозными планами.</p>
+                </div>
+                <div class="timeline-item">
+                    <h3>Первый сезон</h3>
+                    <div class="timeline-date">Ванильное выживание</div>
+                    <p>Запуск первого сезона ознаменовал начало сообщества. Игроки строили свои первые базы, знакомились друг с другом и формировали ядро комьюнити.</p>
+                </div>
+                <div class="timeline-item">
+                    <h3>Второй сезон</h3>
+                    <div class="timeline-date">Рост сообщества</div>
+                    <p>Сервер начал расти. Появились первые РП-элементы, организации и традиции. Были обновлены правила и инфраструктура.</p>
+                </div>
+                <div class="timeline-item">
+                    <h3>Третий сезон</h3>
+                    <div class="timeline-date">Новая эпоха</div>
+                    <p>Третий сезон принёс масштабные изменения: модовые дополнения, новые ивенты и обновлённое серверное оборудование для стабильной игры.</p>
+                </div>
+                <div class="timeline-item">
+                    <h3>Четвёртый сезон</h3>
+                    <div class="timeline-date">Текущий</div>
+                    <p>Актуальный сезон с новыми возможностями, ивентами и ещё более активным сообществом. Присоединяйтесь!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- КОМАНДА -->
+    <section>
+        <div class="container">
+            <div class="section-header reveal">
+                <h2>Наша команда</h2>
+                <p>Люди, которые делают GlekSquad</p>
+                <div class="section-divider"></div>
+            </div>
+            <div class="team-grid stagger-children">
+                <div class="team-card">
+                    <div class="team-icon"><i class="fas fa-crown"></i></div>
+                    <h3>Администрация</h3>
+                    <p>Управляют сервером, следят за порядком, принимают стратегические решения и общаются с сообществом.</p>
+                </div>
+                <div class="team-card">
+                    <div class="team-icon"><i class="fas fa-shield-halved"></i></div>
+                    <h3>Модераторы</h3>
+                    <p>Следят за соблюдением правил, помогают новичкам освоиться и решают конфликтные ситуации.</p>
+                </div>
+                <div class="team-card">
+                    <div class="team-icon"><i class="fas fa-code"></i></div>
+                    <h3>Разработчики</h3>
+                    <p>Создают плагины, настраивают серверное ПО и обеспечивают техническую стабильность проекта.</p>
+                </div>
+                <div class="team-card">
+                    <div class="team-icon"><i class="fas fa-hammer"></i></div>
+                    <h3>Билдеры</h3>
+                    <p>Создают спавн, арены для ивентов, декорации и другие постройки, которые задают атмосферу сервера.</p>
+                </div>
+                <div class="team-card">
+                    <div class="team-icon"><i class="fas fa-calendar-days"></i></div>
+                    <h3>Ивент-менеджеры</h3>
+                    <p>Организуют мероприятия, конкурсы и межсезонные активности, чтобы на сервере всегда было интересно.</p>
+                </div>
+                <div class="team-card">
+                    <div class="team-icon"><i class="fas fa-heart"></i></div>
+                    <h3>Сообщество</h3>
+                    <p>Самая важная часть — наши игроки! Именно вы создаёте атмосферу, строите и делаете GlekSquad живым.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ЧТО МЫ ДЕЛАЕМ -->
+    <section>
+        <div class="container">
+            <div class="section-header reveal">
+                <h2>Чем мы занимаемся</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="features-grid stagger-children">
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="fas fa-tree"></i></div>
+                    <h3>Ванильное выживание</h3>
+                    <p>Классический Minecraft-геймплей с элементами РП. Стройте, торгуйте, объединяйтесь в поселения и развивайтесь вместе.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="fas fa-puzzle-piece"></i></div>
+                    <h3>Модовые сезоны</h3>
+                    <p>Периодически мы запускаем сезоны с модами — новые измерения, механики, мобы и технологии для разнообразия.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="fas fa-trophy"></i></div>
+                    <h3>Ивенты и конкурсы</h3>
+                    <p>Регулярные мероприятия: PvP-турниры, строительные конкурсы, квесты и межсезонные активности.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>GlekSquad</h3>
+                    <p>Проект принадлежит Dream Clouds Studio. Minecraft-сервер с ванильным выживанием, РП и модовыми сезонами.</p>
+                </div>
+                <div>
+                    <div class="footer-socials">
+                        <a href="https://vk.com/dreamcloudsstudio" target="_blank" title="ВКонтакте">
+                            <i class="fab fa-vk"></i>
+                        </a>
+                        <a href="https://discord.com/invite/VzfXjjKyx8" target="_blank" title="Discord">
+                            <i class="fab fa-discord"></i>
+                        </a>
+                        <a href="mailto:gleksquad.official@gmail.com" title="Email">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2024–2026 Dream Clouds Studio. Все права защищены.</p>
+                <p style="margin-top: 5px; font-size: 11px; color: #444;">Minecraft является торговой маркой Mojang Studios.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
