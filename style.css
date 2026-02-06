@@ -764,6 +764,9 @@ section:nth-child(even) { background: rgba(26, 26, 46, 0.3); }
 }
 
 /* Stagger children */
+.stagger-children {
+    min-height: 100px;
+}
 .stagger-children > * {
     opacity: 0;
     transform: translateY(30px);
