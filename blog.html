@@ -23,7 +23,13 @@
             <ul class="nav-links">
                 <li><a href="index.html">Главная</a></li>
                 <li><a href="blog.html" class="active">Блог</a></li>
-                <li><a href="about.html">О проекте</a></li>
+                <li class="nav-dropdown">
+                    <a href="#" class="dropdown-toggle">О проекте <i class="fas fa-chevron-down"></i></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="history.html">История</a></li>
+                        <li><a href="about.html">О проекте</a></li>
+                    </ul>
+                </li>
                 <li><a href="faq.html">FAQ</a></li>
                 <li><a href="apply.html">Заявка</a></li>
             </ul>
@@ -38,6 +44,7 @@
     <div class="mobile-menu" id="mobileMenu">
         <a href="index.html">🏠 Главная</a>
         <a href="blog.html" class="active">📰 Блог</a>
+        <a href="history.html">📜 История</a>
         <a href="about.html">ℹ️ О проекте</a>
         <a href="faq.html">❓ FAQ</a>
         <a href="apply.html">📝 Заявка</a>
@@ -62,8 +69,8 @@
             </div>
             <div class="blog-grid stagger-children">
                 <div class="blog-card">
-                    <div class="blog-card-banner" style="background: linear-gradient(135deg, #2d1f4e, #4a2c7a);">
-                        <i class="fas fa-star"></i>
+                    <div class="blog-card-banner">
+                        <img src="img/blog-season4.jpg" alt="Четвёртый сезон">
                     </div>
                     <div class="blog-card-body">
                         <span class="blog-tag">Сезон</span>
@@ -71,8 +78,8 @@
                     </div>
                 </div>
                 <div class="blog-card">
-                    <div class="blog-card-banner" style="background: linear-gradient(135deg, #4e1f3d, #7a2c55);">
-                        <i class="fas fa-shirt"></i>
+                    <div class="blog-card-banner">
+                        <img src="img/blog-mods.jpg" alt="Время моды">
                     </div>
                     <div class="blog-card-body">
                         <span class="blog-tag">Ивент</span>
@@ -80,8 +87,8 @@
                     </div>
                 </div>
                 <div class="blog-card">
-                    <div class="blog-card-banner" style="background: linear-gradient(135deg, #1f4e3d, #2c7a5a);">
-                        <i class="fas fa-clock"></i>
+                    <div class="blog-card-banner">
+                        <img src="img/blog-interseason4.jpg" alt="Что ждать от 4 межсезона">
                     </div>
                     <div class="blog-card-body">
                         <span class="blog-tag">Анонс</span>
@@ -89,8 +96,8 @@
                     </div>
                 </div>
                 <div class="blog-card">
-                    <div class="blog-card-banner" style="background: linear-gradient(135deg, #4e4a1f, #7a6f2c);">
-                        <i class="fas fa-door-open"></i>
+                    <div class="blog-card-banner">
+                        <img src="img/blog-season3.jpg" alt="Открытие 3 сезона">
                     </div>
                     <div class="blog-card-body">
                         <span class="blog-tag">Сезон</span>
@@ -98,8 +105,8 @@
                     </div>
                 </div>
                 <div class="blog-card">
-                    <div class="blog-card-banner" style="background: linear-gradient(135deg, #4e1f1f, #7a2c2c);">
-                        <i class="fas fa-gavel"></i>
+                    <div class="blog-card-banner">
+                        <img src="img/blog-rules.jpg" alt="Обновлены правила сервера">
                     </div>
                     <div class="blog-card-body">
                         <span class="blog-tag">Правила</span>
@@ -107,8 +114,8 @@
                     </div>
                 </div>
                 <div class="blog-card">
-                    <div class="blog-card-banner" style="background: linear-gradient(135deg, #1f2e4e, #2c457a);">
-                        <i class="fas fa-microchip"></i>
+                    <div class="blog-card-banner">
+                        <img src="img/blog-techliens.jpg" alt="TECHLIENS 3">
                     </div>
                     <div class="blog-card-body">
                         <span class="blog-tag">Обновление</span>
@@ -116,8 +123,8 @@
                     </div>
                 </div>
                 <div class="blog-card">
-                    <div class="blog-card-banner" style="background: linear-gradient(135deg, #3d1f4e, #5a2c7a);">
-                        <i class="fas fa-calendar-check"></i>
+                    <div class="blog-card-banner">
+                        <img src="img/blog-season2.jpg" alt="Дата открытия 2 сезона">
                     </div>
                     <div class="blog-card-body">
                         <span class="blog-tag">Анонс</span>
@@ -125,8 +132,8 @@
                     </div>
                 </div>
                 <div class="blog-card">
-                    <div class="blog-card-banner" style="background: linear-gradient(135deg, #1f4e4e, #2c7a7a);">
-                        <i class="fas fa-server"></i>
+                    <div class="blog-card-banner">
+                        <img src="img/blog-machine.jpg" alt="Новая машина для сервера">
                     </div>
                     <div class="blog-card-body">
                         <span class="blog-tag">Тех. новости</span>
